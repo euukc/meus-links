@@ -25,10 +25,11 @@ body {
     justify-content: center;
     flex-direction: column;
     
+    
 }
 
 .perfil{
-    width: 470px;
+    width: 100%;
     height: 254px;
     display: flex;
     justify-content: center;
@@ -45,11 +46,12 @@ body {
 }
 
 .botoes-links{
-    width: 470px;
-    height: 200px;
+    width: 100%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 20px;    
 }
 
