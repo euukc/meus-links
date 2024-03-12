@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containter{
+    width: 500px;
+    height: 800px;
+    padding: 40px;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.perfil{
+    width: 470px;
+    height: 254px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    font-size: 32px;
+    
+}
+
+.perfil img {
+    width: 180px;
+    height: 180px;
+}
+
+.botoes-links{
+    width: 470px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;    
+}
+
+
+
+.botoes-links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100%;
+    height: 43px;
+    padding-left: 20px;
+    font-size: 18px;
+    box-shadow: 3px 3px black;
+}
+
+.botoes-links a:hover{
+    background-color: #8c52ff;
+    
+    
+}
+
+.redes-sociais{
+    width: 410px;
+    height: 35px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.redes-sociais img:hover{
+    width: 25px;
+}
+
+.rodape{
+    font-size: 8px;
+}
+
+
