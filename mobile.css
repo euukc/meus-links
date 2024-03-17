@@ -8,6 +8,7 @@
         margin: 0px;
         padding: 0;
         background-color: #f3f3f3;
+        overflow-x: hidden;
     }
 
     .containter {
