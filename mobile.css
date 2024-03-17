@@ -1,4 +1,4 @@
-@media screen and (min-width: 375px){
+@media screen and (max-width: 767px){
 
     * {
         font-family: "Lato", sans-serif;
@@ -13,7 +13,7 @@
 
     .containter {
 
-        width: 375px;
+        width: 90%;
         height: 900px;
         padding: 20px;  
         display: flex;
@@ -58,7 +58,7 @@
         align-items: center;
         border: 2px solid black;
         border-radius: 20px;
-        width: 100%;
+        width: 95%;
         height: 43px;
         padding-left: 20px;
         font-size: 18px;
